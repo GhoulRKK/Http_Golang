@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+
 	ctx := context.Background()
 
 	pool, err := db.Simple_connection(ctx)
